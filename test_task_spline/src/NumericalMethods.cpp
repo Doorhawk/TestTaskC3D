@@ -134,7 +134,7 @@ Mat NumericalMethods::numericalJacobian(
 double NumericalMethods::newtonMethod(
 	const std::function<double(double)>& f,		// Функция
 	const std::function<double(double)>& df,	// Производная
-	double x0,									// Начальное условие
+	double x0,									// Начальное приближение
 	double minBound,
 	double maxBound,
 	size_t maxIter								// маскимум итераций

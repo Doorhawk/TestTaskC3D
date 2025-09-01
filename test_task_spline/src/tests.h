@@ -32,7 +32,7 @@ void testDistanceSplinePoint(Spline spline, Point targetPoints, Point correctPoi
 
 
 //-----------------------------
-// Тестирование расстояния от сплафна до сплайна
+// Тестирование расстояния от сплайна до сплайна
 //---
 void testDistanceSplineSpline(Spline spline1, Spline spline2, Point correctPoint1, Point correctPoint2, double correctDist) {
 
